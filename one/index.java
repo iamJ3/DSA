@@ -1,15 +1,17 @@
 // import java.utill.Scanner;
+
 import java.util.Scanner;
-class index{
-    public static void main(String args[]){
-        System.out.println("hey");
 
-        Scanner sc = new Scanner(System.in);
-        int age = sc.nextInt();
+class index {
 
-        String name = "jatin";
-        int umar = 90;
+    public static void main(String args[]) {
+       Scanner sc = new Scanner(System.in);
+       
+       System.out.println("Enter Yor name :");
+       int name = sc.next();
 
-        System.out.println(age);
+       System.out.println(name);
+
+
     }
 }
